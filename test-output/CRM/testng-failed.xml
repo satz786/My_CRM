@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRM]">
+  <listeners>
+    <listener class-name="testnglistener.Customlistener"/>
+  </listeners>
+  <test thread-count="5" name="add_customers(failed)">
+    <classes>
+      <class name="testcases.Add_customer">
+        <methods>
+          <include name="add_new_customers"/>
+          <include name="browsers"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- testcases.Add_customer -->
+    </classes>
+  </test> <!-- add_customers(failed) -->
+</suite> <!-- Failed suite [CRM] -->

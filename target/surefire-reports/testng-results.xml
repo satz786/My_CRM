@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRM" duration-ms="25830" started-at="2021-05-31T16:22:36Z" finished-at="2021-05-31T16:23:02Z">
+    <groups>
+    </groups>
+    <test name="add_customers" duration-ms="25830" started-at="2021-05-31T16:22:36Z" finished-at="2021-05-31T16:23:02Z">
+      <class name="testcases.Add_customer">
+        <test-method status="PASS" signature="browsers()[pri:0, instance:testcases.Add_customer@23bb8443]" name="browsers" is-config="true" duration-ms="5580" started-at="2021-05-31T16:22:31Z" finished-at="2021-05-31T16:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsers -->
+        <test-method status="PASS" signature="login_case()[pri:0, instance:testcases.Add_customer@23bb8443]" name="login_case" duration-ms="2716" started-at="2021-05-31T16:22:36Z" finished-at="2021-05-31T16:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_case -->
+        <test-method status="PASS" signature="add_new_customers()[pri:1, instance:testcases.Add_customer@23bb8443]" name="add_new_customers" duration-ms="23098" started-at="2021-05-31T16:22:39Z" finished-at="2021-05-31T16:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_new_customers -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:testcases.Add_customer@23bb8443]" name="closebrowser" is-config="true" duration-ms="10459" started-at="2021-05-31T16:23:02Z" finished-at="2021-05-31T16:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcases.Add_customer -->
+    </test> <!-- add_customers -->
+  </suite> <!-- CRM -->
+</testng-results>

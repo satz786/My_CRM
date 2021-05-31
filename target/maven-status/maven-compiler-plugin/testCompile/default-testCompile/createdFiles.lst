@@ -1,0 +1,7 @@
+testcases\Add_task.class
+testcases\Add_customer.class
+pages\Login_page.class
+pages\Customer_details_page.class
+pages\Add_customer_list.class
+pages\Add_customer_page.class
+pages\Dashboard.class

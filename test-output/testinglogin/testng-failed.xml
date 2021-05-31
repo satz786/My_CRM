@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testinglogin]">
+  <test thread-count="5" name="wrongpassword(failed)">
+    <classes>
+      <class name="testcases.loginwrongpassword">
+        <methods>
+          <include name="browsers"/>
+          <include name="closebrowser"/>
+          <include name="loigncrtusernamepwd"/>
+        </methods>
+      </class> <!-- testcases.loginwrongpassword -->
+    </classes>
+  </test> <!-- wrongpassword(failed) -->
+  <test thread-count="5" name="wrong username(failed)">
+    <classes>
+      <class name="testcases.wrongusername">
+        <methods>
+          <include name="loigncrtusernamepwd"/>
+          <include name="browsers"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- testcases.wrongusername -->
+    </classes>
+  </test> <!-- wrong username(failed) -->
+  <test thread-count="5" name="wrong username password(failed)">
+    <classes>
+      <class name="testcases.wrongusernamepassword">
+        <methods>
+          <include name="browsers"/>
+          <include name="closebrowser"/>
+          <include name="loigncrtusernamepwd"/>
+        </methods>
+      </class> <!-- testcases.wrongusernamepassword -->
+    </classes>
+  </test> <!-- wrong username password(failed) -->
+</suite> <!-- Failed suite [testinglogin] -->
