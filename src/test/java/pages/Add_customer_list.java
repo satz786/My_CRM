@@ -37,7 +37,7 @@ Thread.sleep(5000);
 		System.out.println(customername+" this is customer name");
 		String[] name = customername.split(" ");
 		String firstname = name[0];
-		Assert.assertEquals(firstname, "basker", "The name is not matching");
+		Assert.assertEquals(firstname, "basker1", "The name is not matching");
 		return this;
 	}
 	
